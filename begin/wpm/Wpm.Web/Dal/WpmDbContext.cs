@@ -24,6 +24,7 @@ public class WpmDbContext : DbContext
                     new Owner() { Id = 5, Name = "Elmer" },
                     new Owner() { Id = 6, Name = "Sam" },
                     new Owner() { Id = 7, Name = "Jessica" }
+                    new Owner() { Id = 7, Name = "Starsky" }
                     );
         modelBuilder.Entity<Species>().HasData(
                     new Species() { Id = 1, Name = "Dog" },
